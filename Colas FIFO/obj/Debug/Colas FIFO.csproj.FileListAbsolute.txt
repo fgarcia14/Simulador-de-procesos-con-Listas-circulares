@@ -1,0 +1,9 @@
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\bin\Debug\Colas FIFO.exe.config
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\bin\Debug\Colas FIFO.exe
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\bin\Debug\Colas FIFO.pdb
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.csprojResolveAssemblyReference.cache
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas_FIFO.frmPrincipal.resources
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas_FIFO.Properties.Resources.resources
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.csproj.GenerateResource.Cache
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.exe
+V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.pdb
