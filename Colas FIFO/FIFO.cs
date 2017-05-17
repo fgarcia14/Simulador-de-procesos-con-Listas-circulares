@@ -20,14 +20,17 @@ namespace Colas_FIFO
 			if (inicio == null)
 			{
 				inicio = proceso;
+				inicio.siguiente = inicio;
 			}
 			else
 			{
 				Proceso temp = inicio;
-				while (temp.siguiente!=null)
+				do
 				{
 					temp = temp.siguiente;
-				}
+
+				} while (temp.siguiente!=inicio);
+				proceso.siguiente = inicio;
 				temp.siguiente = proceso;
 			}
 		}
@@ -40,29 +43,41 @@ namespace Colas_FIFO
 		public Proceso sacar()
 		{
 			Proceso temp=inicio;
-			inicio = inicio.siguiente;
+			if (inicio.siguiente==inicio)
+			{
+				inicio = null;
+			}
+			else
+			{
+				while (temp.siguiente!=inicio)
+				{
+					temp = temp.siguiente;
+				}
+				temp.siguiente = inicio.siguiente;
+				inicio = temp.siguiente;
+			}
 			return temp;
 		}
 
 		public int pendientes() {
 			Proceso temp = inicio;
 			int cont = 0;
-			while (temp!=null)
+			do
 			{
 				cont++;
 				temp = temp.siguiente;
-			}
+			} while (temp!=inicio);
 			return cont;
 		}
 
 		public int sumaPendientes() {
 			Proceso temp = inicio;
 			int cont = 0;
-			while (temp!=null)
+			do
 			{
 				cont += temp.ciclos;
 				temp = temp.siguiente;
-			}
+			} while (temp!=inicio);
 			return cont;
 		}
 
