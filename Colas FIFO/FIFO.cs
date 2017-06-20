@@ -85,5 +85,13 @@ namespace Colas_FIFO
 		{
 			inicio = null;
 		}
+
+		public void avanzar()
+		{
+			if (inicio != null)
+			{ 
+				inicio = inicio.siguiente;
+			}
+		}
 	}
 }

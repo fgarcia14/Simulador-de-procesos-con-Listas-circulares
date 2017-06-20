@@ -7,3 +7,12 @@ V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\
 V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.csproj.GenerateResource.Cache
 V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.exe
 V:\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.pdb
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\bin\Debug\Colas FIFO.exe.config
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.exe
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.pdb
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\bin\Debug\Colas FIFO.exe
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\bin\Debug\Colas FIFO.pdb
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.csprojResolveAssemblyReference.cache
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas_FIFO.frmPrincipal.resources
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas_FIFO.Properties.Resources.resources
+\\Mac\Google Drive\UCOL\4to Semestre\Estructura de Datos\Proyectos C#\Colas FIFO\Colas FIFO\obj\Debug\Colas FIFO.csproj.GenerateResource.Cache

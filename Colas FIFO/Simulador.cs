@@ -12,7 +12,7 @@ namespace Colas_FIFO
 		private static Random rand;
 		FIFO fifo;
 
-		private int procesosAtendidos, ciclosVacios; 
+		private int procesosAtendidos, ciclosVacios;
 
 		public Simulador()
 		{
@@ -23,14 +23,15 @@ namespace Colas_FIFO
 			ciclosVacios = 0;
 		}
 
-		public String procesos() {
+		public String procesos()
+		{
 			procesosAtendidos = 0;
 			ciclosVacios = 0;
 			for (int i = 0; i < 200; i++)
 			{
-				if (rand.Next(1,5)==1)
+				if (rand.Next(1, 5) == 1)
 				{
-					Proceso p = new Proceso(rand.Next(4,15));
+					Proceso p = new Proceso(rand.Next(4, 15));
 					fifo.agregar(p);
 				}
 				if (fifo.ver() != null)
@@ -41,13 +42,14 @@ namespace Colas_FIFO
 						fifo.sacar();
 						procesosAtendidos++;
 					}
+					else
+					{
+						ciclosVacios++;
+					}
 				}
-				else
-				{
-					ciclosVacios++;
-				}
+				fifo.avanzar();
 			}
-			data= "Procesos atendidos: " + procesosAtendidos + Environment.NewLine + "Ciclos vacios: " + ciclosVacios + Environment.NewLine + "Procesos pendientes: " + fifo.pendientes() + Environment.NewLine + "Sumatoria de pendientes: " + fifo.sumaPendientes();
+			data = "Procesos atendidos: " + procesosAtendidos + Environment.NewLine + "Ciclos vacios: " + ciclosVacios + Environment.NewLine + "Procesos pendientes: " + fifo.pendientes() + Environment.NewLine + "Sumatoria de pendientes: " + fifo.sumaPendientes();
 			fifo.reset();
 			return data;
 		}
